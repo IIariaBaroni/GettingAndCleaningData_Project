@@ -25,16 +25,16 @@
 
 ###Main variables on userID and Activities
 
+#####Variable with the IDs of the users who weared the devices
+User			
 
-User			Variable with the IDs of the users who weared the devices
-
-
-Activities 		This columns describes the names of the activity in execution meanwhile the data of the specific row was taken
+#####This columns describes the names of the activity in execution meanwhile the data of the specific row was taken
+Activities 		
 
 
 ###Variables related on time
 
-
+#####
 tBodyAccmeanX		This set of variables are referred to the acceleration of the body (based on time), for each axis, both analyzed with mean and std
 tBodyAccmeanY
 tBodyAccmeanZ
@@ -42,7 +42,7 @@ tBodyAccstdX
 tBodyAccstdY
 tBodyAccstdZ
 
-
+#####
 tGravityAccmeanX	This set of variables are referred only to the acceleration from the gravity (based on time), for each axis, both analyzed with mean and std
 tGravityAccmeanY
 tGravityAccmeanZ
@@ -50,7 +50,7 @@ tGravityAccstdX
 tGravityAccstdY
 tGravityAccstdZ
 
-
+#####
 tBodyAccJerkmeanX	The body linear acceleration, based on time, was derived in time to obtain Jerk signals (one per each axis and both for means and std)
 tBodyAccJerkmeanY
 tBodyAccJerkmeanZ
@@ -58,7 +58,7 @@ tBodyAccJerkstdX
 tBodyAccJerkstdY
 tBodyAccJerkstdZ
 
-
+#####
 tBodyGyromeanX		This set of variables are referred to the information from the gyroscope (based on time), for each axis, both analyzed with mean and std
 tBodyGyromeanY
 tBodyGyromeanZ
@@ -66,7 +66,7 @@ tBodyGyrostdX
 tBodyGyrostdY
 tBodyGyrostdZ
 
-
+#####
 tBodyGyroJerkmeanX	The angular velocity, based on time, was derived in time to obtain Jerk signals (one per each axis and both for means and std)
 tBodyGyroJerkmeanY
 tBodyGyroJerkmeanZ
@@ -74,8 +74,7 @@ tBodyGyroJerkstdX
 tBodyGyroJerkstdY
 tBodyGyroJerkstdZ
 
-Also the magnitude (based on time) of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). These data are represented in variables, both for means and std.
-
+#####Also the magnitude (based on time) of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). These data are represented in variables, both for means and std.
 tBodyAccMagmean		
 tBodyAccMagstd
 tGravityAccMagmean
@@ -90,8 +89,8 @@ tBodyGyroJerkMagstd
 
 ###Variables related on frequency
 
-
-fBodyAccmeanX		This set of variables are referred to the acceleration of the body (based on frequency), for each axis, both analyzed with mean, std, meanFreq.
+#####This set of variables are referred to the acceleration of the body (based on frequency), for each axis, both analyzed with mean, std, meanFreq.
+fBodyAccmeanX		
 fBodyAccmeanY
 fBodyAccmeanZ
 fBodyAccstdX
@@ -101,8 +100,8 @@ fBodyAccmeanFreqX
 fBodyAccmeanFreqY
 fBodyAccmeanFreqZ
 
-
-fBodyAccJerkmeanX	This second group of data the same but was derived in frequence to obtain Jerk signals (one per each axis and both for means, std, meanFreq)
+#####This second group of data the same but was derived in frequence to obtain Jerk signals (one per each axis and both for means, std, meanFreq)
+fBodyAccJerkmeanX	
 fBodyAccJerkmeanY
 fBodyAccJerkmeanZ
 fBodyAccJerkstdX
@@ -112,8 +111,8 @@ fBodyAccJerkmeanFreqX
 fBodyAccJerkmeanFreqY
 fBodyAccJerkmeanFreqZ
 
-
-fBodyGyromeanX		This set of variables are referred to the info from the gyroscope (based on frequency), for each axis, both analyzed with mean, std, meanFreq
+#####This set of variables are referred to the info from the gyroscope (based on frequency), for each axis, both analyzed with mean, std, meanFreq
+fBodyGyromeanX		
 fBodyGyromeanY
 fBodyGyromeanZ
 fBodyGyrostdX
@@ -123,23 +122,23 @@ fBodyGyromeanFreqX
 fBodyGyromeanFreqY
 fBodyGyromeanFreqZ
 
-
-fBodyAccMagmean		These variables are the application of Fast Fourier Transform from the acceleration, always for mean, std and meanFreq, based on frequences
+#####These variables are the application of Fast Fourier Transform from the acceleration, always for mean, std and meanFreq, based on frequences
+fBodyAccMagmean		
 fBodyAccMagstd
 fBodyAccMagmeanFreq
 
-
-fBodyBodyAccJerkMagmean		Same variables of above, but derived in frequence to obtain Jerk signals (one per each axis and both for means, std, meanFreq)
+#####Same variables of above, but derived in frequence to obtain Jerk signals (one per each axis and both for means, std, meanFreq)
+fBodyBodyAccJerkMagmean		
 fBodyBodyAccJerkMagstd
 fBodyBodyAccJerkMagmeanFreq
 
-
-fBodyBodyGyroMagmean	These variables are the application of Fast Fourier Transform (FFT) from the Gyroscopy, always for mean, std and meanFreq, based on frequences
+#####These variables are the application of Fast Fourier Transform (FFT) from the Gyroscopy, always for mean, std and meanFreq, based on frequences
+fBodyBodyGyroMagmean	
 fBodyAccMagstd
 fBodyBodyGyroMagstd
 fBodyBodyGyroMagmeanFreq
 
-
-fBodyBodyGyroJerkMagmean	Same variables of above, but derived in frequence to obtain Jerk signals (one per each axis and both for means, std, meanFreq)
+#####Same variables of above, but derived in frequence to obtain Jerk signals (one per each axis and both for means, std, meanFreq)
+fBodyBodyGyroJerkMagmean	
 fBodyBodyGyroJerkMagstd
 fBodyBodyGyroJerkMagmeanFreq
