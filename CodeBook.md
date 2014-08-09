@@ -34,40 +34,40 @@ Activities
 
 ###Variables related on time
 
-#####
-tBodyAccmeanX		This set of variables are referred to the acceleration of the body (based on time), for each axis, both analyzed with mean and std
+#####This set of variables are referred to the acceleration of the body (based on time), for each axis, both analyzed with mean and std
+tBodyAccmeanX		
 tBodyAccmeanY
 tBodyAccmeanZ
 tBodyAccstdX
 tBodyAccstdY
 tBodyAccstdZ
 
-#####
-tGravityAccmeanX	This set of variables are referred only to the acceleration from the gravity (based on time), for each axis, both analyzed with mean and std
+#####This set of variables are referred only to the acceleration from the gravity (based on time), for each axis, both analyzed with mean and std
+tGravityAccmeanX	
 tGravityAccmeanY
 tGravityAccmeanZ
 tGravityAccstdX
 tGravityAccstdY
 tGravityAccstdZ
 
-#####
-tBodyAccJerkmeanX	The body linear acceleration, based on time, was derived in time to obtain Jerk signals (one per each axis and both for means and std)
+#####The body linear acceleration, based on time, was derived in time to obtain Jerk signals (one per each axis and both for means and std)
+tBodyAccJerkmeanX	
 tBodyAccJerkmeanY
 tBodyAccJerkmeanZ
 tBodyAccJerkstdX
 tBodyAccJerkstdY
 tBodyAccJerkstdZ
 
-#####
-tBodyGyromeanX		This set of variables are referred to the information from the gyroscope (based on time), for each axis, both analyzed with mean and std
+#####This set of variables are referred to the information from the gyroscope (based on time), for each axis, both analyzed with mean and std
+tBodyGyromeanX		
 tBodyGyromeanY
 tBodyGyromeanZ
 tBodyGyrostdX
 tBodyGyrostdY
 tBodyGyrostdZ
 
-#####
-tBodyGyroJerkmeanX	The angular velocity, based on time, was derived in time to obtain Jerk signals (one per each axis and both for means and std)
+#####The angular velocity, based on time, was derived in time to obtain Jerk signals (one per each axis and both for means and std)
+tBodyGyroJerkmeanX	
 tBodyGyroJerkmeanY
 tBodyGyroJerkmeanZ
 tBodyGyroJerkstdX
