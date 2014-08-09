@@ -20,7 +20,7 @@ Train <- read.table("./UCI HAR Dataset/train/X_train.txt", header=FALSE)
 Features <- read.table("./UCI HAR Dataset/features.txt", header=FALSE)
 
 ###The next command will create a new table cleaned from special characters, starting from Features[,2]
-#The special symbols that will be deleted are: - _ , ( )
+###The special symbols that will be deleted are: - _ , ( )
 FeaturesCleaned <- gsub("-|_|\\(|\\)|,","",Features[,2])
 
 ###Insert right names in Test and Train data sets
